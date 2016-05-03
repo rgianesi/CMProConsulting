@@ -10,11 +10,11 @@
         <div class="col-md-4">
             <div class="panel panel-primary CmPro-panel">
                 <div class="panel-heading">
-                    <h3>Metrô</h3>
+                    <h3>Infraestrutura</h3>
                 </div>
                 <div class="panel-body">
                     <p>
-                        Atuação no Gerenciamento da implantação das maiores linhas de metrô do Brasil, com atendimento a demandas contratuais e gerenciamento de processos na construção civil. 
+                    Atuação em projetos de infraestrutura de grande porte; gerenciamento da implantação das maiores linhas de metrô do Brasil, implantação projetos de saneamento e suporte a demandas contratuais para construção civil e infraestrutura metroferroviária.
                     </p>
                 </div>
             </div>
@@ -22,7 +22,7 @@
         <div class="col-md-4">
             <div class="panel panel-primary CmPro-panel">
                 <div class="panel-heading">
-                    <h3>Obras Públicas</h3>
+                    <h3>Projetos públicos e Privados</h3>
                 </div>
                 <div class="panel-body">
                     <p>
