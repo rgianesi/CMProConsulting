@@ -1,4 +1,4 @@
-﻿<%@ Page Title="QuemSomos" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="QuemSomos.aspx.cs" Inherits="WebApplication1.QuemSomos" %>
+﻿<%@ Page Title="QuemSomos" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="QuemSomos.aspx.cs" Inherits="CmPro.QuemSomos" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="panel panel-default CmPro-panel">

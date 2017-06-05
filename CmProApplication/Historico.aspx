@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Historico" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Historico.aspx.cs" Inherits="WebApplication1.Historico" %>
+﻿<%@ Page Title="Historico" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Historico.aspx.cs" Inherits="CmPro.Historico" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -14,7 +14,7 @@
                 </div>
                 <div class="panel-body">
                     <p>
-                    Atuação em projetos de infraestrutura de grande porte; gerenciamento da implantação das maiores linhas de metrô do Brasil, implantação projetos de saneamento e suporte a demandas contratuais para construção civil e infraestrutura metroferroviária.
+                        Atuação em projetos de infraestrutura de grande porte; gerenciamento da implantação das maiores linhas de metrô do Brasil, implantação projetos de saneamento e suporte a demandas contratuais para construção civil e infraestrutura metroferroviária.
                     </p>
                 </div>
             </div>

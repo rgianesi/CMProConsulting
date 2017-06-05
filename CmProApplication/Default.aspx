@@ -1,4 +1,4 @@
-﻿<%@ Page Title="CMPro" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="WebApplication1._Default" %>
+﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="CmPro._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
@@ -54,28 +54,6 @@
         <h1>CMPro Consulting</h1>
         <p class="lead">Empresa de consultoria especializada em Gestão de Contratos e Gestão de Projetos</p>
     </div>
-
-    <%-- <div class="row">
-        <div class="box">
-            <div class="col-lg-12 text-center">
-
-                <h2 class="brand-before">
-                    <small>Welcome to</small>
-                </h2>
-                <h1 class="brand-name">Business Casual</h1>
-                <hr class="tagline-divider">
-                <h2>
-                    <small>By
-                           
-                            <strong>Start Bootstrap</strong>
-                    </small>
-                </h2>
-            </div>
-        </div>
-    </div>--%>
-
-
-
     <div class="panel panel-default">
         <div class="panel-body">
 
@@ -91,7 +69,6 @@
                 Através de parcerias, a CMPro atende diferentes etapas do ciclo de vida de um projeto, da administração contratual, a engenharia e 
                 design até certificações de segurança e qualidade.
             </p>
-
             A CMPro atua globalmente nos principais mercados:
             <ul>
                 <li>Infraestrutura Metro-Ferroviária;</li>

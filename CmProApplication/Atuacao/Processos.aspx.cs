@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 
-namespace WebApplication1.Atuacao
+namespace CmPro.Atuacao
 {
     public partial class Processos : System.Web.UI.Page
     {

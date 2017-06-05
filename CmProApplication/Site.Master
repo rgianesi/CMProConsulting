@@ -1,4 +1,4 @@
-﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WebApplication1.SiteMaster" %>
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="CmPro.SiteMaster" %>
 
 <!DOCTYPE html>
 
@@ -11,6 +11,7 @@
     <asp:PlaceHolder runat="server">
         <%: Scripts.Render("~/bundles/modernizr") %>
     </asp:PlaceHolder>
+
     <webopt:BundleReference runat="server" Path="~/Content/css" />
     <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
 
@@ -45,43 +46,32 @@
                 <div class="container">
                     <!-- Brand and toggle get grouped for better mobile display -->
                     <div class="navbar-header">
+                        <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">-->
                         <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                             <span class="sr-only">Toggle navigation</span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </button>
-                        <!-- navbar-brand is hidden on larger screens, but visible when the menu is collapsed -->
                         <a class="navbar-brand" runat="server" href="~/">CMPro Consulting</a>
                     </div>
-                    <!-- Collect the nav links, forms, and other content for toggling -->
-                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <div class="navbar-collapse collapse" id="bs-example-navbar-collapse-1">
                         <ul class="nav navbar-nav">
                             <li>
                                 <a runat="server" href="Default.aspx">Home</a>
                             </li>
-
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Atuação <span class="caret"></span></a>
                                 <ul class="dropdown-menu">
                                     <li><a runat="server" href="~/Atuacao/Contratos.aspx">Contratos</a></li>
                                     <li><a runat="server" href="~/Atuacao/Projetos.aspx">Projetos</a></li>
                                     <li><a runat="server" href="~/Atuacao/Processos.aspx">Processos</a></li>
-
-                                    <%--            <li role="separator" class="divider"></li>
-            <li><a href="#">Separated link</a></li>--%>
                                 </ul>
                             </li>
-
-                            <li>
-                                <a runat="server" href="Historico.aspx">Histórico</a>
-                            </li>
-                            <li>
-                                <a runat="server" href="QuemSomos.aspx">Quem somos</a>
-                            </li>
-                            <li>
-                                <a runat="server" href="Contact.aspx">Contato</a>
-                            </li>
+                            <li><a runat="server" href="Historico.aspx">Histórico</a></li>
+                            <li><a runat="server" href="QuemSomos.aspx">Quem somos</a></li>
+                            <%--<li><a runat="server" href="About.aspx">About</a></li>--%>
+                            <li><a runat="server" href="Contact.aspx">Contato</a></li>
                         </ul>
                     </div>
                     <!-- /.navbar-collapse -->
@@ -94,21 +84,20 @@
 
             <div class="navbar navbar-default">
                 <ul class="list-inline text-center navbar-text-centered">
-                    <%--<li>
-                                <span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>
-                                Rua Oscar Freire, 129 - Casa 4
-                            </li>--%>
+                    <li><span class="glyphicon glyphicon-map-marker" aria-hidden="true"></span>Rua Alexandre Dumas, 1601, cj. 68</li>
                     <li>
-                        <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>&nbsp;+55 11 98411.9809
+                        <span class="glyphicon glyphicon-phone" aria-hidden="true"></span>&nbsp;+55 11 4371.4441
                     </li>
                     <li>
                         <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>&nbsp;contato@cmproconsulting.com
                     </li>
                 </ul>
             </div>
-
+            <%--<hr />
+            <footer>
+                <p>&copy; <%: DateTime.Now.Year %> - My ASP.NET Application</p>
+            </footer>--%>
         </div>
-
     </form>
 </body>
 </html>

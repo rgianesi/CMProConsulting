@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Processos" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Processos.aspx.cs" Inherits="WebApplication1.Atuacao.Processos" %>
+﻿<%@ Page Title="Processos" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Processos.aspx.cs" Inherits="CmPro.Atuacao.Processos" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <div class="panel panel-primary">

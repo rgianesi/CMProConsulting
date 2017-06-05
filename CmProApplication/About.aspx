@@ -1,9 +1,9 @@
-﻿<%@ Page Title="Sobre Nós" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="WebApplication1.About" %>
+﻿<%@ Page Title="Sobre Nós" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="About.aspx.cs" Inherits="CmPro.About" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <div class="panel panel-default">
         <div class="panel-body">
-            <h2><%: Title %>.</h2>
+    <h2><%: Title %>.</h2>
             <h3>CMPro Consulting</h3>
             <p>
                 A CMPro Consulting, empresa de consultoria especializada em Gestão de Contratos e Gerenciamento de Projetos, emprega seus conhecimentos 
